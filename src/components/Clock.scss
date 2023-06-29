@@ -1,0 +1,24 @@
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: radial-gradient(aquamarine);
+  // backdrop-filter: blur(10px);
+  height: 100px;
+  margin: 200px;
+  
+  color: #02F8FF;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px rgba($color: #FFFFFF, $alpha: .7);
+
+  &-title {
+    font-family: 'led_sled_expandedexpanded', sans-serif;
+    text-transform: capitalize;
+  }
+
+  &-date {
+    font-size: 2rem;
+  }
+}
